@@ -2,7 +2,7 @@
 //If you want to recode, reupload
 //or copy the codes,
 //pls give credit
-//© 2022 Sibu Bot Inc.  𝐀𝐑𝐂𝐓𝐈𝐗 𝐁𝐎𝐓 
+//© 2022 Sibu Bot Inc. بھارت 
 //Thank you to Lord Buddha, Family and Myself
 //═══════════════════════════════════════════════════════//
 const
@@ -80,8 +80,8 @@ const thumb = fs.readFileSync ('./media/dogetb.jpg')
 
 //══════════[ Developer Number ]══════════//
 
-developerNo = '919337956084'
-developerName= '𝐀𝐑𝐂𝐓𝐈𝐗'
+developerNo = '919875718817'
+developerName= 'بھارت'
 
 //══════════[ Apikeys ]══════════//
 //----credit goes to all the respected owner---//
@@ -164,7 +164,7 @@ module.exports = DogeXeonOP = async (DogeXeonOP, mek, _welkom) => {
 		const q = args.join(' ')
 		const txt = mek.message.conversation
 		const botNumber = DogeXeonOP.user.jid
-		const ownerNumber = [`${owner}@s.whatsapp.net`, `919337956084@s.whatsapp.net`]
+		const ownerNumber = [`${owner}@s.whatsapp.net`, `919875718817@s.whatsapp.net`]
 		const isGroup = from.endsWith('@g.us')
 		let sender = isGroup ? mek.participant : mek.key.remoteJid
 		let senderr = mek.key.fromMe ? DogeXeonOP.user.jid : mek.key.remoteJid.endsWith('@g.us') ? mek.participant : mek.key.remoteJid
@@ -519,7 +519,7 @@ for (let anji of setik){
 │
 ╰───「 *🥳ʟᴇᴠᴇʟ ᴜᴘ🥳* 」`)
 		  but = [{ buttonId: `!menu`, buttonText: { displayText: 'MENU 🗃️' }, type: 1 }]
-          sendButton(from, lvlup, '*𝐀𝐑𝐂𝐓𝐈𝐗 𝐁𝐎𝐓*', but)
+          sendButton(from, lvlup, '*بھارت*', but)
 
                 }
             } catch (err) {
