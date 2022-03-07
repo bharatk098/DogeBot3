@@ -1408,7 +1408,7 @@ menu =
 
 ${gaya2} ${prefix}runtime
 ${gaya2} ${prefix}speed
-${gaya2} ${prefix}rentbot
+${gaya2} ${prefix}Instagram
 ${gaya2} ${prefix}payment
 ${gaya2} ${prefix}owner
 ${gaya2} ${prefix}developer
@@ -1454,7 +1454,7 @@ break
 
 //══════════[ RENT DLL ]══════════//
 
-case 'rentbot':
+case 'ㅤㅤㅤㅤㅤㅤㅤㅤ':
 menu =
 `*${ucapanWaktu} @${senderr.split('@')[0]}*
 
@@ -1474,8 +1474,8 @@ For those who want to buy script or interested in any of the above
 Can request, if interested please contact the developer`
 DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal} - ${time}_*`, buttons: [{ buttonId: `${prefix}payment`, buttonText: { displayText: 'PAYMENT 💸' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr]}}}, 'buttonsMessage')
 break
-case 'bayar':
-case 'payment':
+case 'ㅤㅤㅤ':
+case 'ㅤㅤㅤㅤㅤ':
 
 gambar = fs.readFileSync('./media/doged.jpg')
 menunya = `*「 PAYMENT 」*
@@ -2868,10 +2868,10 @@ case 'script':
 case 'sourcode':
 
 scpic = fs.readFileSync('./media/scpic.jpg')
-scsell = `*𝐀𝐑𝐂𝐓𝐈𝐗 𝐁𝐎𝐓*\n\n_• 𝒀𝒐𝒖𝑻𝒖𝒃𝒆: https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A_\n_• 𝑮𝒊𝒕𝑯𝒖𝒃: https://github.com/Sibuuu07/Arctix_\n\n_𝙄𝙛 𝙮𝙤𝙪 𝙬𝙞𝙨𝙝 𝙩𝙤 𝙗𝙪𝙮 𝙪𝙣𝙚𝙣𝙘𝙧𝙮𝙥𝙩𝙚𝙙 𝙨𝙘𝙧𝙞𝙥𝙩 𝙘𝙡𝙞𝙘𝙠 𝙤𝙣 𝙩𝙝𝙚 𝙗𝙪𝙮 𝙨𝙘𝙧𝙞𝙥𝙩 𝙗𝙪𝙩𝙩𝙤𝙣 𝙗??𝙡𝙤𝙬._`
+scsell = `*𝐀𝐑𝐂𝐓𝐈𝐗 𝐁𝐎𝐓*\n\n_• 𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌: https://www.instagram.com/sibssssssss_\n_• 𝑮𝒊𝒕𝑯𝒖𝒃: https://github.com/Sibuuu07/Arctix_`
 but = [
-{ buttonId: `${prefix}rentbot`, buttonText: { displayText: 'BUY SCRIPT 💵' }, type: 1 },
-{ buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 }
+{ buttonId: `${prefix}Instagram`, buttonText: { displayText: '𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌📸' }, type: 1 },
+{ buttonId: `${prefix}developer`, buttonText: { displayText: '𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 👨🏼‍💻' }, type: 1 }
 ]
 sendButImage(from, scsell, `*_${tanggal} - ${time}_*`, scpic, but)
 break
