@@ -2842,7 +2842,7 @@ vcard2 = 'BEGIN:VCARD\n'
 DogeXeonOP.sendMessage(from, {displayName: `The owner ${botname}`, vcard: vcard2}, contact, 
 { quoted: fgi, 
 })
-reply(`_The above contact is my owner 🇮🇳🦄_`)
+reply(`_The above contact is my owner 🇮🇳_`)
 break
 case 'developer':
 
@@ -2892,7 +2892,7 @@ case 'delete':
 DogeXeonOP.deleteMessage(from, { id: mek.message.extendedTextMessage.contextInfo.stanzaId, remoteJid: from, fromMe: true })
 break
 case 'Instagram id':
-reply('𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌:https://www.instagram.com/sibssssssss')
+'𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌:https://www.instagram.com/sibssssssss'
 break
 
 
