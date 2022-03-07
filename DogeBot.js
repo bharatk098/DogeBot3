@@ -1408,7 +1408,7 @@ menu =
 
 ${gaya2} ${prefix}runtime
 ${gaya2} ${prefix}speed
-${gaya2} ${prefix}Instagram
+${gaya2} ${prefix}Instagram id
 ${gaya2} ${prefix}payment
 ${gaya2} ${prefix}owner
 ${gaya2} ${prefix}developer
@@ -1451,7 +1451,10 @@ case 'abcde':
 
 reply('damn gay, really gay, wow, no one wants to play with him bro, its unclean because he is gay 🗿')
 break
-
+case 'Instagram id':
+scsell = `*𝐀𝐑𝐂𝐓𝐈𝐗 𝐁𝐎𝐓*\n\n_• 𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌: https://www.instagram.com/sibssssssss_\n_'
+sendButImage(from, scsell, `*_${tanggal} - ${time}_*`, scpic, but)2
+break
 //══════════[ RENT DLL ]══════════//
 
 case 'ㅤㅤㅤㅤㅤㅤㅤㅤ':
@@ -2870,7 +2873,7 @@ case 'sourcode':
 scpic = fs.readFileSync('./media/scpic.jpg')
 scsell = `*𝐀𝐑𝐂𝐓𝐈𝐗 𝐁𝐎𝐓*\n\n_• 𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌: https://www.instagram.com/sibssssssss_\n_• 𝑮𝒊𝒕𝑯𝒖𝒃: https://github.com/Sibuuu07/Arctix_`
 but = [
-{ buttonId: `${prefix}Instagram`, buttonText: { displayText: '𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌📸' }, type: 1 },
+{ buttonId: `${prefix}Instagram id`, buttonText: { displayText: '𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌📸' }, type: 1 },
 { buttonId: `${prefix}developer`, buttonText: { displayText: '𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 👨🏼‍💻' }, type: 1 }
 ]
 sendButImage(from, scsell, `*_${tanggal} - ${time}_*`, scpic, but)
