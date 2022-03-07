@@ -1452,8 +1452,7 @@ case 'abcde':
 reply('damn gay, really gay, wow, no one wants to play with him bro, its unclean because he is gay 🗿')
 break
 case 'Instagram id':
-scsell = `*𝐀𝐑𝐂𝐓𝐈𝐗 𝐁𝐎𝐓*\n\n_• 𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌: https://www.instagram.com/sibssssssss_\n_'
-sendButImage(from, scsell, `*_${tanggal} - ${time}_*`, scpic, but)2
+reply('*𝐀𝐑𝐂𝐓𝐈𝐗 𝐁𝐎𝐓*\n\n_• 𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌: https://www.instagram.com/sibssssssss_\n_')
 break
 //══════════[ RENT DLL ]══════════//
 
