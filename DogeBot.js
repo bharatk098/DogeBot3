@@ -2867,7 +2867,7 @@ case 'script':
 case 'sourcode':
 
 scpic = fs.readFileSync('./media/scpic.jpg')
-scsell = `*𝐀𝐑𝐂𝐓𝐈𝐗 𝐁𝐎𝐓*\n\n_• 𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌: https://www.instagram.com/sibssssssss_\n_• 𝑮𝒊𝒕𝑯𝒖𝒃: https://github.com/Sibuuu07/Arctix_`
+scsell = `*𝐀𝐑𝐂𝐓𝐈𝐗 𝐁𝐎𝐓*\n\n_• 𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌: https://www.instagram.com/bharatkhajnani701\n_• 𝑮𝒊𝒕𝑯𝒖𝒃: https://github.com/bharatk098`
 but = [
 { buttonId: `${prefix}Instagram id`, buttonText: { displayText: '𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌📸' }, type: 1 },
 { buttonId: `${prefix}developer`, buttonText: { displayText: '𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 👨🏼‍💻' }, type: 1 }
@@ -2892,7 +2892,7 @@ case 'delete':
 DogeXeonOP.deleteMessage(from, { id: mek.message.extendedTextMessage.contextInfo.stanzaId, remoteJid: from, fromMe: true })
 break
 case 'Instagram id':
-'𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌:https://www.instagram.com/sibssssssss'
+'𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌:https://www.instagram.com/bharatkhajnani701'
 break
 
 
